@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP - Jeu de Chifoumi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jeu de Chifoumi</h1>
+        <h2>Le célèbre jeu Feuille, Papier, Ciseaux</h2>
+        <div class="instruction">
+            <p>Atteignez les 10 points pour gagner la partie :</p>
+        </div>
+        <div id="choix">
+            <div class="choixClic" id="pierre"><img src="assets/img/Rock-paper-scissors_(rock).png" alt="Pierre"></div>
+            <div class="choixClic" id="papier"><img src="assets/img/Rock-paper-scissors_(paper).png" alt="Papier"></div>
+            <div class="choixClic" id="ciseaux"><img src="assets/img/Rock-paper-scissors_(scissors).png" alt="Ciseaux"></div>
+            </div>
+            <p id="resultat">Cliquez sur une option pour jouer.</p>
+            <div class="compteur">
+            <div id="compteurTotal">Utilisateur<span id="scoreJoueur">&nbsp;0</span></div>
+            <div id="compteurTotal">Ordinateur<span id="scoreOrdi">&nbsp;0</span></div>
+            </div>
+            <div id="score">
+    </div>
+    <div id="historiqueParties">
+            <p>Historique des jeux :</p>
+            <p>Victoires totales: <span id="totalGagne">0</span></p>
+            <p>Défaites totales: <span id="totalPerdu">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
